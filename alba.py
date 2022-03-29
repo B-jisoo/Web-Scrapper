@@ -29,7 +29,6 @@ def extract_dic(html, link):
 
 
 def extract_array(html): 
-  brand_job ={}
   brand_jobs =[]
 
   alba_company_link = html.find("a")["href"]                      # a인 요소의 href(배열)를 찾아 alba_company_link에 넣음  a요소에 href 정보가 있기때문에 가능
